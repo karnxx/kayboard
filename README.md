@@ -8,17 +8,17 @@ basically a keyboard, it can split into 3, which is a left side, a right side an
 
 ## hardware
 - uses 3  XIAO-nRF52840-SMD, one for each keyboard part. and also uses cherry mx switches.
-
-| Item | Qty | Source | Unit Cost (INR) | Subtotal (INR) | Notes |
+- 
+| Item | Qty | Link | Unit Cost (₹) | Subtotal (₹) | Notes |
 |---|---:|---|---:|---:|---|
-| Seeed Studio XIAO nRF52840 (SMD) | 3 | Robocraze | 799 | 2,397 | BLE MCU |
-| 1N5819 THT Diode (pack of 30) | 4 packs (120) | Robu | 99 / pack | 396 | Keyboard matrix |
-| 820 kΩ Resistor (806k replacement) | 3 | Local / generic | 5 | 15 | Standard value substitute |
-| 2 MΩ Resistor 1/2W | 3 | ElectronComponents | 10 | 30 | As linked |
-| CR2032 Coin Cell Holder | 3 | Robu | 25 | 75 | 20 mm holder |
-| CR2032 Coin Cell Battery | 3 | Local | 40 | 120 | Typical India price |
-| Cherry MX RGB Switches | 108 | Meckeys | 55 | 5,940 | MX-compatible |
-| Keycaps (full set) | 1 set (108 keys) | India market | 1,500 | 1,500 | Budget estimate |
-| M3 × 6 mm Brass Heat-set Inserts | 30 | Robu | ~6 | 152 | 2 packs (25 pcs each) |
-| M3 × 30 mm SS Screws | 30 | OnlyScrews | 6 | 180 | Case assembly |
-| **TOTAL** |  |  |  | **10,805** | INR |
+| **:contentReference[oaicite:0]{index=0}** | 3 | https://robocraze.com/products/seeed-studio-xiao-nrf52840-development-board-supports-bluetooth-5-0 | 1,118 | 3,354 | BLE MCU (discounted price on Robocraze) :contentReference[oaicite:1]{index=1} |
+| **:contentReference[oaicite:2]{index=2}** | 120 | https://robu.in/product/1n5819-mdd-40v-600mv1a-1a-do-41-schottky-diodes-rohs | 7 | 840 | Cheap Schottky diodes (DO-41) :contentReference[oaicite:3]{index=3} |
+| **820 kΩ resistor (approx stock)** | 3 | (generic, local) | 5 | 15 | Standard resistor substitute |
+| **2 MΩ resistor 1/2 W** | 3 | https://www.electroncomponents.com/2m-resistor-1_2-watt-half-cfr | 10 | 30 | As linked |
+| **:contentReference[oaicite:4]{index=4}** | 3 | https://robu.in/product/2-x-cr2032-coin-button-cell-batteries-holder-with-on-off-switch | 90 | 270 | Coin cell holder (with switch) :contentReference[oaicite:5]{index=5} |
+| CR2032 coin cell battery | 3 | (local) | 40 | 120 | Typical India price |
+| **:contentReference[oaicite:6]{index=6}** | 108 | *(example set)* | 55 (avg) | 5,940 | Cherry/MX style switches (example) |
+| Keycaps (108) | 1 set | *(local/AliExpress/Meckeys)* | 1,500 | 1,500 | Budget estimate |
+| M3 × 6 mm brass heat-set inserts (25 pcs)** | 30 | https://robu.in/product/m3-x-6-mm-brass-heat-set-knurl-threaded-round-insert-nut-25-pcs/ | ~76/25 | 152 | 2 packs = 30 inserts |
+| **:contentReference[oaicite:7]{index=7}** | 30 | https://onlyscrews.in/products/m3-x-30mm-phillips-csk-ss-304-screw-dia-3mm-length-30mm | 12.27 | 368 | M3 screws (approx) |
+| **TOTAL** |     |     |     | **13,639** | INR |
