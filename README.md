@@ -12,23 +12,27 @@ basically a keyboard, it can split into 3, which is a left side, a right side an
 <img width="1500" height="685" alt="image" src="https://github.com/user-attachments/assets/02103c4e-5274-4939-991b-7bd422e3a1ea" />
 <img width="632" height="913" alt="image" src="https://github.com/user-attachments/assets/6fb8287a-1e02-484f-88e4-a20dc452b7d9" />
 
-
+https://docs.google.com/spreadsheets/d/1L9tUZh8eFOhgZV8CGI-1AN47H67KgHnQl9KeM_NllnM/edit?usp=sharing
 ## hardware
 - uses 3  XIAO-nRF52840-SMD, one for each keyboard part. and also uses cherry mx switches.
-- 
-| Item | Qty | Link | Unit Cost (₹) | Subtotal (₹) | Notes |
-|---|---:|---|---:|---:|---|
-| Seeed Studio XIAO nRF52840 (SMD) | 3 | https://robocraze.com/products/seeed-studio-xiao-nrf52840-development-board-supports-bluetooth-5-0 | 799 | 2,397 | BLE MCU |
-| 1N5819 THT Diode (pack of 30) | 4 packs (120) | https://robu.in/product/1n5819-1w-diode-pack-of-30/ | 99 / pack | 396 | Keyboard matrix |
-| 820 kΩ Resistor (806k replacement) | 3 | https://www.electroncomponents.com | 5 | 15 | Standard-value substitute |
-| 2 MΩ Resistor 1/2 W | 3 | https://www.electroncomponents.com/2m-resistor-1_2-watt-half-cfr | 10 | 30 | As linked |
-| CR2032 Coin Cell Holder (20 mm) | 3 | https://robu.in/product/20mm-cr2032-battery-button-cell-holder/ | 25 | 75 | Coin cell holder |
-| CR2032 Coin Cell Battery | 3 | Local purchase | 40 | 120 | Typical India price |
-| Cherry MX RGB Switches | 108 | https://meckeys.com/shop/accessories/keyboard-accessories/key-switches/cherry-mx-rgb-switch/ | 55 | 5,940 | MX-compatible |
-| Keycaps (108 keys) | 1 set | Local / Meckeys / AliExpress | 1,500 | 1,500 | Budget estimate |
-| M3 × 6 mm Brass Heat-set Inserts (25 pcs) | 30 | https://robu.in/product/m3-x-6-mm-brass-heat-set-knurl-threaded-round-insert-nut-25-pcs/ | ~3 | 152 | 2 packs needed |
-| M3 × 30 mm SS Screws | 30 | https://onlyscrews.in/products/m3-x-30mm-phillips-csk-ss-304-screw-dia-3mm-length-30mm | 12.27 | 368 | Case assembly |
-| **TOTAL** |  |  |  | **10,993** | INR |
+| Item | Qty | Unit Cost | Total Cost | Link |
+|---|---:|---:|---:|---|
+| Seeed Studio XIAO nRF52840 (SMD) | 3 | 621.6 | 1864.8 | https://www.seeedstudio.com/Seeed-Studio-XIAO-nRF52840-3PCS-p-5921.html |
+| 1N5819 THT Diode | 120 | 2.22 | 266.4 | https://robu.in/product/1n5819-1w-diode-pack-of-30/ |
+| 820 kΩ Resistor | 3 | 2.23 | 6.69 | https://robu.in/product/mccfr0s2j0821a20-multicomp-pro-carbon-film-resistor-820-ohm-500mw-5/ |
+| 2 MΩ Resistor 1/2 W (5 pcs pack) | 3 | 0.8 | 5 | https://www.electroncomponents.com/2m-resistor-1_2-watt-half-cfr |
+| Cherry MX switches | 100 | 160 | 1600 | https://www.banggood.in/100-Pcs-LEOBOG-GrayWood-V3-Switch-Linear-Gray-3Pin-DIY-Gaming-Keyboard-MX-RGB-Hot-Swap-Switch-for-Custom-Mechanical-Keyboard-p-1982818.html |
+|  | 10 | 175 | 200 | https://meckeys.com/shop/accessories/keyboard-accessories/key-switches/gateron-g-pro-3-0-switch/ |
+| M3 × 4 mm Brass Heat-set Inserts (25 pcs) | 30 | 2.2 | 66 | https://onlyscrews.in/products/m4-x-4mm-brass-threaded-inserts |
+| M3 × 30 mm SS Screws | 30 | 12.27 | 368 | https://onlyscrews.in/products/m3-x-30mm-phillips-csk-ss-304-screw-dia-3mm-length-30mm |
+| Keycaps | 108 | 11.03 | 1600 | https://www.banggood.in/Yogurt-145-Keys-Keycap-Set-Cherry-Profile-PBT-Sublimation-Suitable-for-108-Keyboards-p-1991040.html |
+| Battery | 3 | 95 | 285 | https://www.rytronics.in/product/3-7v-300mah-602030-model-lipo-rechargeable-battery/ |
+| Regulator 3.3V | 3 | 45 | 135 | https://in.element14.com/microchip/mcp1700-1202e-to/ic-ldo-250ma-1-2v-to-92-3/dp/1863922 |
+| Capacitor 470µF | 3 | 4.39 | 13.17 | https://sharvielectronics.com/product/470uf-6-3v-electrolytic-capacitor-85c-6x11mm-samwha/ |
+| Capacitor 1 | 6 | 28.4 | 170.4 |  |
+| PCB | 1 | 3680 | 5760 (w/ shipping) |  |
+
+
 
 
 
